@@ -5,6 +5,7 @@
     <string name="action_settings">Settings</string>
     <string name="server_url">https://wink.apiary-proxy.com/</string>
     <string name="loading">Loading&#8230;</string>
+    <string name="outlet_updating">Updating outlet&#8230;</string>
     <string name="outlet_dialog_error_message">Your outlet did not update.</string>
     <string name="initialize_dialog_error_message">Something went wrong. Try again?</string>
 

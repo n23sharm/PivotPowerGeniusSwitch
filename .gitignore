@@ -5,3 +5,4 @@ classes.dex
 .project
 bin/
 gen/
+org.eclipse.jdt.core.prefs

@@ -40,7 +40,7 @@ public class OutletListActivity extends ListActivity {
 		super.onCreate(savedInstanceState);
 		mProgressDialog = new ProgressDialog(this);
 		mProgressDialog.setCancelable(false);
-		mProgressDialog.setMessage(getString(R.string.loading));
+		mProgressDialog.setMessage(getString(R.string.outlet_updating));
 		mPowerstrip = (Powerstrip) getIntent().getSerializableExtra(Constants.INTENT_DATA_OUTLET);
 		mOutletListAdapter = new ArrayAdapter<Outlet>(this, android.R.layout.simple_list_item_1, mPowerstrip.getOutletList());
 		setListAdapter(mOutletListAdapter);
